@@ -12,6 +12,17 @@ React Js Fundamentals Course (2021 Update Boom!!)
 // onClick={this.add}   => 클릭했을 때 함수 실행
 // onClick={this.add()} => 페이지 로드 될때 함수 실행
 
+
+![Axios에서 가져온 데이터를 state에 넣을때](https://user-images.githubusercontent.com/51774351/105632060-b2086f00-5e94-11eb-8fd2-f5df25d57d6d.PNG)
+
+// {movies : movies } => state안에 movies Array에 axios에서 가져온 movies 를 넣으려면 이렇게도 작성할 수 있지만 {moives} 처럼 작성 할 수도 있다. ==> ES6의 문법!
+
+# Github Terminal
+## Push : git push -u origin master
+
+# Chrome App
+# JSONview : JSON 파일을 예쁘게 보여준다~
+
 # 필기
 # Day 1
 // 1. Component
@@ -86,5 +97,16 @@ React Js Fundamentals Course (2021 Update Boom!!)
 ![Axios vs Fetch](https://user-images.githubusercontent.com/51774351/105631035-ae261e00-5e8f-11eb-9b68-4a5a085cbab2.PNG)
 
 
+// axios 는 빠르지 않기 때문에 Data를 가져올 때 조금 기다려야 하는데 function에 async 키워드를 사용하면 비동기로 처리한다!
+// 변수의 값 부분에 await도 같이 추가! , async 키워드를 사용하지 않으면 await도 사용할 수 없다.
 
+
+![Axios 비동기 처리](https://user-images.githubusercontent.com/51774351/105631697-0e6a8f00-5e93-11eb-991f-876b9128c726.PNG)
+
+
+# YTS API
+// Movie List , Movie Detail 등 가져와서 사용하는 API!
+// https://yts.mx/api
+
+// 사용할 때는 https://yts-proxy.nomadcoders1.now.sh/list_movies.json 로 가서 사용하자~
 
