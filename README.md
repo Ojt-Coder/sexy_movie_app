@@ -13,20 +13,20 @@ React Js Fundamentals Course (2021 Update Boom!!)
 // onClick={this.add()} => 페이지 로드 될때 함수 실행
 
 # 필기
+# Day 1
 // 1. Component
 
 // Component : HTML을 반환하는 함수!  , 형태가 정해져 있다.
-// <Kimchi/> : Kimchi.js 안에 있는 function을 Retrun한 결과 (<h3></h3>이 들어있다.)
+// <Kimchi/> : Kimchi.js 안에 있는 function을 Retrun한 결과
 // 자식 Component로 정보를 보내는 방법 : Props
 // map : array 내에 item에 함수를 전달! 하는 메소드
 
+# Day2
 // 2. React.Component 
 
 // React.Component : Java 에서 인터페이스와 같은 역할! 많은 메소드 들이 React.Component에 구현되어 있고 이를 extends 받은 자식 클래스에서 이를 가져다가 사용!
 //                 : React.Component는 function이 아니기 때문에 return이 없다! 대신 render라는 것이 있음!(render는 React.Component에서 사용하는 유일한 Function이다!)
 // React는 자동적으로 모든 Class Component의 render Method를 실행하고자 한다.
-
-// --------------------------------------------------------------------------------------------- //
 
 // 2-1. state
 
@@ -40,7 +40,7 @@ React Js Fundamentals Course (2021 Update Boom!!)
 // 2-2. Life Cycle Method
 
 // Life Cycle Method : react가 Component를 생성하고 없애는 과정에서 실행되는 Method
-//                   : Component가 생성되기 전에 실행되는 함수가 / render 함수 / Component를 끝내는 함수 3가지 종류가 있는것 같다.
+//                   : Component가 생성되기 전에 실행되는 함수(Mounting) / render 함수(Update) / Component를 끝내는 함수(Unmounting) 3가지 종류가 있는것 같다.
 
 // ※ Mounting(시작)
 // Mounting : Component가 Screen에 표시될때 / Component가 Website로 전달 될 때
@@ -61,11 +61,19 @@ React Js Fundamentals Course (2021 Update Boom!!)
 // getSnapshotBeforeUpdate() : 자주 안씀
 // componentDidUpdate() : setState 호출 -> Component 호출 -> render 호출 -> 업데이트 완료 후 componentDidUpdate 호출
 
-// ※ UnMounting (종료? 죽임?)
-// UnMounting : 
+// ※ UnMounting (종료? 죽임?) 
 
 // componentWillUnmount() : 컴포넌트가 DOM 상에서 제거될 때 호출된다.
 
+# Day 3
+
+// Axios
+
+// 일반적으로 자바스크립트에서 API를 연동하기 위해서 fetch-api를 사용한다.
+// 리액트에도 fetch-api가 있지만 자바스크립트 Built-in 라이브러리라는 특성 때문인지 React에서는 Axios를 많이 사용한다.
+
+// Axios vs Fetch
+![Axios vs Fetch](https://user-images.githubusercontent.com/51774351/105630893-e8db8680-5e8e-11eb-9970-0f0d9939a733.PNG)
 
 
 
