@@ -68,6 +68,7 @@ React Js Fundamentals Course (2021 Update Boom!!)
 # Day 3
 
 // Axios
+// : Axios란 Promise 기반의 HTTP Client!
 
 // 일반적으로 자바스크립트에서 API를 연동하기 위해서 fetch-api를 사용한다.
 // 리액트에도 fetch-api가 있지만 자바스크립트 Built-in 라이브러리라는 특성 때문인지 React에서는 Axios를 많이 사용한다.
@@ -77,6 +78,12 @@ React Js Fundamentals Course (2021 Update Boom!!)
 
 ![Axios vs Fetch](https://user-images.githubusercontent.com/51774351/105630893-e8db8680-5e8e-11eb-9970-0f0d9939a733.PNG)
 
+
+
+// Axios의 장점
+
+
+![Axios vs Fetch](https://user-images.githubusercontent.com/51774351/105631035-ae261e00-5e8f-11eb-9b68-4a5a085cbab2.PNG)
 
 
 
