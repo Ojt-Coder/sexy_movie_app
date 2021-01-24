@@ -29,12 +29,12 @@ React Js Fundamentals Course (2021 Update Boom!!)
 
 # Extension
 
-// 1. Prettier : 코드 예쁘게 포맷해줌. setting.json에 옵션 추가 및 ctrl+, 후 Deafult Formatter 검색해서 esbenp.prettier-vscode로 변경<br>
+// 1. Prettier : 코드 예쁘게 포맷해줌. setting.json에 옵션 추가 및 ctrl+, 후 Deafult Formatter 검색해서 esbenp.prettier-vscode로 변경<br/>
 
 # Error
 
-// 1. Each child in a list should have a unique "key" prop : 리액트에서는 엘리먼트가 많을 경우 고유한 key라는 것을 정해주어야한다.
-// 2. Typo in static class property declaration : Proptype 쓸때 Movie.PropTypes 같이 PropTypes의 P를 대문자로 쓰면 에러남! 소문자로 써줘야함!
+// 1. Each child in a list should have a unique "key" prop : 리액트에서는 엘리먼트가 많을 경우 고유한 key라는 것을 정해주어야한다.<br/>
+// 2. Typo in static class property declaration : Proptype 쓸때 Movie.PropTypes 같이 PropTypes의 P를 대문자로 쓰면 에러남! 소문자로 써줘야함!<br/>
 
 # 필기
 
